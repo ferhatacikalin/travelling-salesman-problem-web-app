@@ -26,7 +26,7 @@ Install dependencies
   bower install bootstrap
 ```
 
-Start the server
+Start the desktop application
 
 ```bash
   npx electron index.js
