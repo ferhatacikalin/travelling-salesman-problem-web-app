@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+    <title>Login</title>
+
+    <link rel = "stylesheet"
+          href = "./bower_components/bootstrap/dist/css/bootstrap.min.css" />
+</head>
+
+</head>
+<body>
+<div class="container">
+<div class="row">
+    <div class="col-md-4"></div>
+    <div class="col-md-4" style="margin-top: 100px;">
+        <img style="width: 100%;position: relative" src="landing.png">
+        <div>
+            <div class="mb-3 mt-3">
+                <label for="username" class="form-label">Kullanıcı Adı:</label>
+                <input type="text" class="form-control" id="username" placeholder="kullanıcı adı" name="username" required>
+            </div>
+            <div class="mb-3">
+                <label for="pwd" class="form-label">Şifre:</label>
+                <input type="password" class="form-control" id="pwd" placeholder="şifre" name="pswd" required>
+            </div>
+
+            <button  id="girisyap" style="position: relative;width: 100%;height: 40px;" class="btn btn-primary">Giriş Yap</button>
+            <button id="kayitol" style="position: relative;width: 100%;height: 40px;margin-top: 10px;" type="button" class="btn btn-primary">Kayıt Ol</button>
+
+
+        </div>
+
+    </div>
+    <div class="col-md-4"></div>
+</div>
+
+</div>
+<script src="./settings.js" type="application/ecmascript"></script>
+<script src="./bower_components/jquery/dist/jquery.min.js"></script>
+<script src="./login.js" type="application/ecmascript"></script>
+
+</body>
+</html>

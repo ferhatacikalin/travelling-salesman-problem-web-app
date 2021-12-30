@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+    <title>GUI1</title>
+
+    <link rel = "stylesheet" href = "./bower_components/bootstrap/dist/css/bootstrap.css" />
+    <link rel = "stylesheet"
+          href = "./node_modules/bootstrap-icons/font/bootstrap-icons.css" />
+    <link re="stylesheet" href="./main.css">
+    <script src="./bower_components/bootstrap/dist/js/bootstrap.bundle.js"></script>
+</head>
+<body>
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-sm-auto bg-light sticky-top">
+            <div class="d-flex flex-sm-column flex-row flex-nowrap bg-light align-items-center sticky-top">
+                <a href="/" class="d-block p-3 link-dark text-decoration-none" title="" data-bs-toggle="tooltip" data-bs-placement="right" data-bs-original-title="Icon-only">
+                    <i class="b fs-1"></i>
+                </a>
+                <ul class="nav nav-pills nav-flush flex-sm-column flex-row flex-nowrap mb-auto mx-auto text-center align-items-center">
+                    <li class="nav-item">
+                        <a href="ekle.html" class="nav-link py-3 px-2" title="Ekle" data-bs-toggle="tooltip" data-bs-placement="right" data-bs-original-title="Ekle">
+                            <i class="bi-plus fs-1"></i>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="kkonumu.html" class="nav-link py-3 px-2" title="Lokasyon Değiştir" data-bs-toggle="tooltip" data-bs-placement="right" data-bs-original-title="Kullanıcı Lokasyonu Değiştir">
+                            <i class="bi-map fs-1"></i>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="sifredegistir.html" class="nav-link py-3 px-2" title="Şifre Değiştir" data-bs-toggle="tooltip" data-bs-placement="right" data-bs-original-title="Şifre Değiştir">
+                            <i class="bi-person fs-1"></i>
+                        </a>
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+        <div class="col-sm p-3 min-vh-100">
+
+      <div class="row">
+          <div class="col-sm-1"></div>
+          <div class="col-sm-10"> <table id="kargolar" class="table table-hover table-responsive">
+              <thead class="table-light">
+              <tr>
+                  <th>Kargo Numarası</th>
+                  <th>Teslimat Bilgisi</th>
+                  <th> </th>
+              </tr>
+              </thead>
+              <tbody>
+
+              </tbody>
+          </table></div>
+      </div>
+
+
+
+      </div>
+    </div>
+</div>
+
+<script src="./settings.js" type="application/ecmascript"></script>
+<script src="./bower_components/jquery/dist/jquery.min.js"></script>
+<script src="gui1.js" type="application/ecmascript"></script>
+</body>
+</html>
